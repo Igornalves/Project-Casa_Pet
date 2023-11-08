@@ -1,0 +1,333 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu-horizontal{
+    background-color: #734c2d
+}
+
+#menu-horizontal ul{
+    text-align: center;
+    float:none;
+    max-width: 850px;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    background-color: #734c2d ;
+
+}
+#menu-horizontal ul li{
+    display: inline-block;
+}
+#menu-horizontal li a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    display: inline-block;
+}
+#menu-horizontal ul li a:hover{
+    color: #734c2d;
+    background-color: #fcb042;
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    display: inline-block;
+    transition: background .4s;
+}
+
+#imagem_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pets {
+    max-width: 70%;
+}
+
+#quadros {
+    background-color: #fcb042;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#frame {
+    margin: 2%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.quadro-quadros {
+    width: 20%;
+    min-width: 155px;
+    height: 20%;
+    min-width: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#quadro01 {
+    background-color: #ffffff;
+}
+
+#div-quadro-02{
+    justify-content: center;
+    width: 20%;
+    height: 15.7vmax;
+    background-color: #252326;
+}
+
+#quadro02 {
+    padding: 5%;
+    color:#fdfdfd;
+    font-size: 2vmax;
+    font-weight: 700;
+    text-align: center;
+}
+
+.icone {
+    max-width: 20%;
+}
+
+#div-quadro-03{
+    justify-content: center;
+    width: 20%;
+    height: 15.7vmax;
+    background-color:#734c2d;
+}
+
+#quadro03 {
+    background-color:#fdfdfd;
+}
+
+#quadro04 {
+    padding: 5%;
+    color:#ffffff;
+    font-size: 1.5vmax;
+    font-weight: 700;
+    text-align: center;
+}
+
+#div-quadro-04{
+    justify-content: center;
+    width: 20%;
+    height: 15.7vmax;
+    background-color:#4a4a4a;
+}
+
+#quadro05 {
+    background-color: rgb(233, 233, 69);
+}
+
+#quadro06 {
+    background-color: #fdfdfd;
+}
+
+
+#quadro07 {
+    background-color: #734c2d;
+}
+
+#quadro08 {
+    padding: 5%;
+    color: rgb(233, 233, 69);
+    font-size: 2vmax;
+    font-weight: 700;
+    text-align: center;
+}
+
+#quadro09 {
+    background-color: rgb(233, 233, 69);
+}
+
+#quadro10 {
+    background-color: #734c2d;
+}
+
+.quadro-quadros img{
+    width: 100%;
+}
+
+
+
+article{
+    min-width: 750px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 70px;
+    padding-bottom: 170px;
+    display: flex;
+
+}
+
+.conteudo {
+    margin: 5%;
+    max-width: 100%;
+
+}
+
+article h3{
+    font-size: 3vmax;
+    padding-top: 30px;
+
+}
+
+article a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    display: inline-block;
+}
+
+article a:hover{
+    color: #fcb042;
+
+}
+
+
+article p{
+    font-family:  Arial, sans-serif;
+    font-size: 1vmax;
+    padding: 10px;
+}
+
+article img{
+        padding-top: 30px;
+        max-width: 45%;
+        max-width: 300px;
+        padding-bottom: 15px;
+}
+#quem-somos img{
+    padding-right: 20px;
+    float: left;
+    }
+
+#quem-somos h3{
+    color: #734c2d;
+}
+#quem-somos p{
+    color: #fcb042;
+}
+
+#voluntarios{
+    background-color: #fcb042;
+}
+#voluntarios img{
+    padding-left: 20px;
+    float:right;
+}
+
+#voluntarios h3{
+    color: #252326;
+    text-align: right;
+}
+
+#voluntarios p{
+    color: white;
+    text-align: right;
+}
+
+#adoçoes{
+    background-color: #252326;
+}
+
+#adoçoes img{
+
+    padding-right: 20px;
+    float: left;
+}
+
+#adoçoes h3{
+    color: white;
+}
+#adoçoes p{
+    color: #939473;
+}
+
+#doações{
+    background-color: #734c2d;
+}
+
+#doações img{
+    padding-left: 20px;
+    float:right;
+}
+
+#doações h3{
+    color: white;
+    text-align: right;
+}
+
+#doações p{
+    font-size: 13px;
+    color: #939473;
+    text-align: right;
+}
+
+
+#contatos {
+    background-color: #939473;
+}
+
+#contatos img{
+
+    padding-right: 20px;
+    float: left;
+}
+
+#contatos h3{
+    color: #734c2d;
+}
+#contatos p{
+    font-size: 13px;
+    color: #252326;
+}
+#apoio{
+    padding-top: 15px;
+    
+}
+
+#apoio h3{
+    font-size: 35px;
+
+}
+
+#apoio li{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    display: inline-block;
+}
+
+#apoio img{
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 12px;
+    max-width: 25%;
+    max-width: 220px;
+    padding-bottom: 13px;
+}
+
+#apoio p{
+    text-align: center;
+    color: #734c2d;
+    padding-top: 25px;
+    font-size: 13px;
+}
