@@ -170,22 +170,33 @@
 
 article{
     min-width: 750px;
-    font-family: 'Montserrat', sans-serif;
-    padding: 70px;
-    padding-bottom: 170px;
-    display: flex;
+    font-family: 'Montserrat';
+    padding: 2vmax;
+    padding-bottom: 3vmax;
 
 }
 
 .conteudo {
     margin: 5%;
-    max-width: 100%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-artigo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
+
 article h3{
     font-size: 3vmax;
-    padding-top: 30px;
+    padding-top: 5vmax;
+
 
 }
 
@@ -209,25 +220,25 @@ article p{
 }
 
 article img{
-        padding-top: 30px;
-        max-width: 45%;
-        max-width: 300px;
-        padding-bottom: 15px;
+        padding: 5px;
+        width: 35%;
+        padding-bottom: 4vmax;
 }
-#quem-somos img{
-    padding-right: 20px;
-    float: left;
-    }
+
+#quem-somos {
+    background-color: #d5d5d5;
+}
 
 #quem-somos h3{
     color: #734c2d;
 }
 #quem-somos p{
-    color: #fcb042;
+    color:#252326;
 }
 
-#voluntarios{
+#voluntarios {
     background-color: #fcb042;
+
 }
 #voluntarios img{
     padding-left: 20px;
@@ -236,7 +247,7 @@ article img{
 
 #voluntarios h3{
     color: #252326;
-    text-align: right;
+
 }
 
 #voluntarios p{
