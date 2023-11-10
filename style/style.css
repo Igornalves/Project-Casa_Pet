@@ -9,11 +9,11 @@
 }
 
 body{
-    max-width: 100%;
+    max-width:100vmax;
 }
 
 #menu-horizontal{
-    min-width: 100vmax;
+    max-width: 100%;
     background-color: #734c2d;
     display: flex;
     align-items: center;
@@ -23,7 +23,8 @@ body{
 #menu-horizontal ul{
     text-align: center;
     float:none;
-    max-width: 850px;
+    max-width: 90%;
+    min-width: 400px;
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
@@ -55,13 +56,13 @@ body{
     justify-content: center;
     align-items: center;
     width: 80%;
-    min-width: 100vmax;
+    min-width: 400px;
 
 }
 
 #imgtopsite {
     width: 80vmx;
-    min-width: 100vmax;
+    min-width: 400px;
 
 }
 
@@ -72,7 +73,7 @@ body{
 #quadros {
     background-color: #fcb042;
     width: 100%;
-    min-width: 100vmax;
+    min-width: 400px;
     height: 20%;
     display: flex;
     align-items: center;
@@ -245,6 +246,7 @@ article img{
 }
 
 #quem-somos {
+    min-width: 400px;
     background-color: #d5d5d5;
 }
 
@@ -262,6 +264,7 @@ article img{
     flex-wrap: wrap;
     justify-content:center;
     align-items:self-start;
+    min-width: 400px;
 }
 
 #voluntarios img{
@@ -349,6 +352,7 @@ textarea {
 
 #adoçoes{
     background-color: #252326;
+    min-width: 400px;
 }
 
 #adoçoes img{
@@ -370,6 +374,7 @@ textarea {
 }
 
 #doações{
+    min-width: 400px;
     background-color:#efc29d;
 
 }
@@ -391,6 +396,7 @@ textarea {
 
 
 #contatos {
+    min-width: 400px;
     background-color:#734c2d;
 }
 
@@ -413,6 +419,7 @@ textarea {
 
 #apoio{
     max-width: 100vmax;
+    min-width: 400px;
     display: flex;
     align-items:flex-start;
     justify-content: center;
