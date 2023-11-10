@@ -8,6 +8,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    max-width: 100%;
+}
+
 #menu-horizontal{
     background-color: #734c2d;
     display: flex;
@@ -399,13 +403,14 @@ textarea {
 
 #apoio{
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: center;
 
 }
 
 .grid-template-columns {
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #apoio h3{
