@@ -9,7 +9,10 @@
 }
 
 #menu-horizontal{
-    background-color: #734c2d
+    background-color: #734c2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #menu-horizontal ul{
@@ -166,8 +169,6 @@
     width: 100%;
 }
 
-
-
 article{
     min-width: 750px;
     font-family: 'Montserrat';
@@ -307,6 +308,11 @@ input {
     border-style: none;
     }
 
+textarea {
+    border-radius: 10px;
+    resize:none;
+}
+
 #enviar {
     border-style: none;
     background-color: #252326;
@@ -315,7 +321,17 @@ input {
     color: #fdfdfd;
     margin: 0.3vmax;
     border-radius: 10px;
+    cursor: pointer;
+
 }
+.botao:hover{
+    background-color:#ecfc42;
+    color: white;
+    transform: scale(1.02);
+    transition: background .4s;
+    cursor: pointer;
+}
+
 
 #adoçoes{
     background-color: #252326;
@@ -355,7 +371,7 @@ input {
 }
 
 #doações p {
-    color::#4a4a4a;
+    color:#4a4a4a;
     text-align: right;
 }
 
@@ -365,7 +381,6 @@ input {
 }
 
 #contatos img{
-
     padding-right: 20px;
     float: left;
 }
@@ -383,8 +398,14 @@ input {
 }
 
 #apoio{
-    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.grid-template-columns {
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 #apoio h3{
@@ -393,33 +414,46 @@ input {
     padding-right: 2vmax;
 }
 
-
-#apoio ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:;
-    list-style-type: none;
-}
-
 #conteudo-apoio {
-    display: flex;
-    margin: 5%;
+
+    margin: 1vmax;
     max-width: 80%;
-    flex-direction: row;
-    align-items:center;
-    justify-content:center;
-
 }
 
-#apoio li{
-    color: white;
-    text-decoration: none;
-
-}
 
 #apoio img{
     width: 15vmax;
-    padding-left: 2vmax;
+    padding: 2vmax;
 }
+
+#tanks-body{
+    background-color: #fcb042;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thanks{
+    margin: 12vmax;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55vmax;
+    border-radius: 90px;
+}
+
+#thanks h3{
+    font-size: 4vmax;
+    color:#734c2d;
+    padding-right: 2vmax;
+}
+
+#thanks p{
+    margin: 1vmax;
+    font-size: 1.5vmax;
+    font-family:  Arial, sans-serif;
+    color: #252326;
+}
+
 

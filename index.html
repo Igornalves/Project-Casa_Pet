@@ -12,11 +12,11 @@
     <body>
         <nav id="menu-horizontal">
             <ul>
-                <li><a href="#">Casa pet</a></li>
-                <li><a href="#">Voluntários</a></li>
-                <li><a href="#">Adoções/Padrinhos</a></li>
-                <li><a href="#">Ajuda</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a href="#quem-somos">Casa pet</a></li>
+                <li><a href="#voluntarios">Voluntários</a></li>
+                <li><a href="#adoçoes">Adoções/Padrinhos</a></li>
+                <li><a href="#doações">Ajuda</a></li>
+                <li><a href="#contatos">Contatos</a></li>
             </ul>
         </nav>
         <div id="imagem_top">
@@ -84,38 +84,40 @@
                 <h3> Voluntários</h3>
                 <p>Precisamos de ajuda sempre! venha ser voluntário e distribuir amor com a gente!</p>
                 <div id="div-form">
-                    <form id="formulario-voluntario" action="" method="">
+
+                    <form id="formulario-voluntario" action="https://formsubmit.co/oswaldojales@gmail.com" method="POST">
                         <div class="input-div">
                             <label for="nome">Nome:</label>
-                            <input  class="text-input" type="text" id="nome" />
+                            <input  name="nome" class="text-input" type="text" id="nome" required/>
                         </div>
                         <div class="input-div">
                             <label for="nascimento">Nascimento:</label>
-                            <input class="text-input" type="date" id="nascimento" />
+                            <input name="nascimento" class="text-input" type="date" id="nascimento" required/>
                         </div>
                         <div class="input-div">
-                            <label for="tel">Telefone:</label>
-                            <input class="text-input" type="tel" id="telefone" />
+                            <label for="telefone">Telefone:</label>
+                            <input name="telefone" class="text-input" type="tel" id="telefone" required/>
                         </div>
                         <div class="input-div">
                             <label for="email">E-mail:</label>
-                            <input class="text-input" type="email" id="email" />
+                            <input name="email" class="text-input" type="email" id="email" required/>
                         </div>
                         <div class="input-div">
                             <label for="formacao">Formação:</label>
-                            <input class="text-input" type="text" id="formacao" />
+                            <input name="formacao" class="text-input" type="text" id="formacao" />
                         </div>
                         <div class="input-div">
                             <label for="disponibilidade">Disponibilidade:</label>
-                            <input class="text-input" type="text" id="disponibilidade" />
+                            <input name="disponibilidade" class="text-input" type="text" id="disponibilidade" />
                         </div>
                         <div>
                                 <div class="input-div">
                                 <label for="msg">Mensagem:</label>
-                                <textarea class="text-input" id="msg"></textarea>
+                                <textarea name="msg" class="text-input" id="msg"></textarea>
+                                <input type="hidden" name="_next" value="thanks.html">
                             </div>
-                            <div>
-                                <button id="enviar">ENVIAR</button>
+                            <div id="botao-enviar">
+                                <a href=""><button class="botao" id="enviar">ENVIAR</button></a>
                             </div>
                         </div>
                     </form>
@@ -151,7 +153,7 @@
                     <h3> Como você ajuda</h3>
                     <p>Suas doações de <b>alimentos e medicamentos</b> são a espinha dorsal de nossa capacidade de fornecer cuidados diários. Ração de qualidade, medicamentos essenciais e suprimentos médicos garantem que cada animal receba a atenção de que precisa. Cada saco de ração e frasco de remédio representa uma chance renovada para uma vida mais saudável.</p>
                     <p>Contribuições <b>financeiras</b> são um apoio vital que nos permite atender às necessidades imediatas e emergenciais. Seja uma doação única ou um compromisso mensal, cada quantia contribui para a continuidade dos serviços essenciais, incluindo tratamentos veterinários, procedimentos cirúrgicos e manutenção das instalações.</p>
-                    <p>PIX/PayPal : pix@casapet.org</p>
+                    <p<b>PIX/PayPal : pix@casapet.org</b></p>
                 </div>
                 <img src="imagens/bolinha04.png" alt="">
             </div>
@@ -176,15 +178,12 @@
     </main>
     <div>
         <article id="apoio">
-            <div id="conteudo-apoio">
+            <div class="grid-template-columns" id="conteudo-apoio">
                 <h3> <br>Apoio:</h3>
-                <hr>
-                <ul>
-                    <li> <img src="imagens/logo_uninassau2.jpg" alt=""></li>
-                    <li> <img src="imagens/logo_uninassau2.jpg" alt=""></li>
-                    <li> <img src="imagens/logo_uninassau2.jpg" alt=""></li>
-                    <li> <img src="imagens/logo_uninassau2.jpg" alt=""></li>
-                </ul>
+                <img src="imagens/logo_uninassau2.jpg" alt="">
+                <img src="imagens/logo_uninassau2.jpg" alt="">
+                <img src="imagens/logo_uninassau2.jpg" alt="">
+                <img src="imagens/logo_uninassau2.jpg" alt="">
             </div>
         </article>
     </div>
