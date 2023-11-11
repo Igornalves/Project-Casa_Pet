@@ -328,7 +328,7 @@ input {
 }
 
 #msg {
-    width:40vmax;
+    width:38vmax;
     padding: 1%;
     border-style: none;
     }
@@ -341,7 +341,7 @@ textarea {
 #enviar {
     border-style: none;
     background-color: #252326;
-    width: 40vmax;
+    width: 38vmax;
     padding: 0.6vmax;
     color: #fdfdfd;
     margin: 0.3vmax;
@@ -502,3 +502,24 @@ footer span{
     font-size: 1vmax;
     font-family:  Arial, sans-serif;
 }
+
+
+
+
+@media (max-width: 600px) {
+    article p, #formulario-voluntario label, #apoio h3  {
+        font-size: 1.7vmax;
+    
+    #pets {
+
+    } 
+    .quadro-quadros{
+
+
+    }
+    
+
+
+
+    }
+  }
