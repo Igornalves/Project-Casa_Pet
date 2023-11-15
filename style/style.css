@@ -491,8 +491,7 @@ textarea {
 footer{
     width: 100%;
     height: 50px;
- 
-   
+
 }
 
 footer span{
@@ -509,17 +508,24 @@ footer span{
 @media (max-width: 600px) {
     article p, #formulario-voluntario label, #apoio h3  {
         font-size: 1.7vmax;
-    
-    #pets {
+}
 
-    } 
-    .quadro-quadros{
-
-
-    }
-    
-
+    #frame {
+        width: 100rem;
 
 
     }
-  }
+    #como_ajudar{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #como-ajudar-texto{
+        width: 20rem;
+        text-align: left;
+    }
+
+    #como_ajudar img{
+        width: 25rem;
+    }
+}
