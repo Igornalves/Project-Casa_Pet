@@ -125,6 +125,8 @@ function checkInputFormulario() {
 
     if (isValid == true) {
         alert("CADASTRADO ENVIADO COM SUCESSO!!!")
+        // window.location.href= "/Casa-pet/thanks.html";
+        // window.location.href= "https://jallsbr.github.io/Casa-pet/thanks.html";
         return;
     }
 
