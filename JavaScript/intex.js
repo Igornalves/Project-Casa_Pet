@@ -133,5 +133,4 @@ function checkInputFormulario() {
     else if (isValid == false) {
         alert("CADASTRO NÃO ENVIADO CONCLUIDO COM SUCESSO")
     }
-
 }
