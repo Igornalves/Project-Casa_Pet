@@ -1,24 +1,24 @@
-# Projeto Casa-pet 🐱
-🐶 Site do abrigo de animais Casa Pet em Teresina-PI 
+# Pet House Project 🐱
+🐶 Casa Pet animal shelter website in Teresina-PI
 <br> <br>
-🐈 Com o intuito educacional de ajudar e tambem obter experiencia com trabalho de equipe e projetos reais que serão desenvovidos pelos membros da equipe.
+🐈 With the educational purpose of helping and also gaining experience with teamwork and real projects that will be developed by team members.
 
-# Apresentação do projeto 👨‍💻
+# Project presentation 👨‍💻
 
-💻 Nosso projeto de criação de uma página web tem o intuito trazer mais praticidade, reconhecimento e aumento da comunidade que é de animais. 
+💻 Our project to create a web page aims to bring more practicality, recognition and increase the animal community.
 <br><br>
-🌎 Pensamos em um projeto para tornar o mundo um lugar melhor para os animais. A Página, tem uma iniciativa dedicada a apoiar e promover a 
-causa dos animais carentes. 
+🌎 We thought of a project to make the world a better place for animals. Page has an initiative dedicated to supporting and promoting
+cause of needy animals.
 <br><br>
-Acreditamos que, com essa iniciativa salvaremos vidas.
+We believe that with this initiative we will save lives.
 <br><br>
-📲 Nossa missão é proporcionar uma plataforma online abrangente para a instituição que iremos trabalhar. 
+📲 Our mission is to provide a comprehensive online platform for the institution we will work with.
 <br><br>
-📰 Aqui, você encontrará informações 
-sobre os animais necessitados, formas de apoiar a causa, informações sobre a instituição e contribuir para transformar suas vidas.
-Juntos, podemos fazer uma mudança significativa.
+📰 Here you will find information
+about animals in need, ways to support the cause, information about the institution and help transform their lives.
+Together, we can make a meaningful change.
 
-# Membros do Projeto 🙋‍♂️ (DISCENTES RESPONSÁVEIS)
+# Project Members 🙋‍♂️ (RESPONSIBLE STUDENTS)
 
 Maria Eduarda de Amorim Sousa
 
@@ -26,11 +26,10 @@ Guilherme Antônio Santos da Costa
 
 Oswaldo Jales Coelho
 
-Igor Nascimento dos santos alves
+Igor Nascimento dos Santos Alves
 
-Islany Santos Silva 
+Island Santos Silva
 
-Ana Gabriela Borges Cardoso 
+Ana Gabriela Borges Cardoso
 
-Guacyra Cristal
-
+Crystal Guacyra
